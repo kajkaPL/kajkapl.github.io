@@ -1,14 +1,73 @@
 body {
-	background:coral;
+	background-image:url('Cute-White-Cat-Wallpaper-Full-HD.jpg');
+	background-position:left bottom;
+	background-size:98%;
 	font-family: helvetica;
 }
 
 h1 {
-	color:white;
-	text-align:right;
-	font-family: arial;
+	color:gray;
+	text-align:center;
+	font-family: helvetica;
+	text-shadow: 2px 2px black;
+}
+
+h2 {
+	color:black;
+	text-align:center;
+	font-family: helvetica;
+	text-shadow: 2px 2px coral;
+}
+
+h3 {
+	color:black;
+	text-align:center;
+	font-family: helvetica;
+	text-shadow: 2px 2px gray;
 }
 
 #cat {
 	border: 2px solid black;
+}
+body {
+    margin:10px;
+}
+
+#header {
+    width:600px;
+    background-color: #f0efee;
+}
+
+
+#main{
+    width:100%;
+}
+#leftcol {
+    background-color: #f0efee;
+    float:left;
+    margin: 10px 10px 10px 0;
+    width:28%;
+    text-align:center;
+}
+#midcol {
+    background-color: #FFC;
+    margin: 10px 10px 10px 0;
+    float:left;
+    width:42%;
+    text-align:center;
+}
+#rightcol {
+    background-color: #f0efee;
+    float: left;
+    margin: 10px 0 10px 0;
+    width:28%;
+    text-align:center;
+}
+
+#footer {
+    width:42%;
+    margin: 500px 100px 100px 29%;
+    background-color: #f0efee;
+    float: center;
+    text-align:center;
 }
