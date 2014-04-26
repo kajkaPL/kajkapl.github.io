@@ -1,0 +1,14 @@
+body {
+	background:coral;
+	font-family: helvetica;
+}
+
+h1 {
+	color:white;
+	text-align:right;
+	font-family: arial;
+}
+
+#cat {
+	border: 2px solid black;
+}
