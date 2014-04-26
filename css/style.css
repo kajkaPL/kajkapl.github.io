@@ -38,36 +38,3 @@ body {
     background-color: #f0efee;
 }
 
-
-#main{
-    width:100%;
-}
-#leftcol {
-    background-color: #f0efee;
-    float:left;
-    margin: 10px 10px 10px 0;
-    width:28%;
-    text-align:center;
-}
-#midcol {
-    background-color: #FFC;
-    margin: 10px 10px 10px 0;
-    float:left;
-    width:42%;
-    text-align:center;
-}
-#rightcol {
-    background-color: #f0efee;
-    float: left;
-    margin: 10px 0 10px 0;
-    width:28%;
-    text-align:center;
-}
-
-#footer {
-    width:42%;
-    margin: 500px 100px 100px 29%;
-    background-color: #f0efee;
-    float: center;
-    text-align:center;
-}
