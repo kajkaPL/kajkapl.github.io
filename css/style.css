@@ -1,8 +1,9 @@
 body {
 	background-image:url('ducttape.jpg');
-	background-position:left bottom;
 	background-size:cover;
 	font-family: helvetica;
+	background-position: 50% -60%;
+	background-repeat:no-repeat;
 }
 
 h1 {
@@ -10,32 +11,40 @@ h1 {
 	text-align:center;
 	font-family: Baskerville;
 	background-color:white;
+	text-transform: uppercase;
 	text-transform: full-width;
+	font-variant: small-caps;
 }
 
 h2 {
 	color:black;
 	text-align:center;
 	font-family: helvetica;
-	text-shadow: 2px 2px coral;
+	background-color:white;
+	text-transform: uppercase;
+	text-transform: full-width;
+	font-variant: small-caps;
 }
 
 h3 {
 	color:black;
 	text-align:center;
 	font-family: helvetica;
-	text-shadow: 2px 2px gray;
+	background-color:white;
+	text-transform: uppercase;
+	text-transform: full-width;
+	font-variant: small-caps;
 }
 
-#cat {
-	border: 2px solid black;
-}
 body {
     margin:10px;
 }
 
 #header {
     width:600px;
-    background-color: #f0efee;
+    background-color: white;
 }
 
+p {
+	background-color:white;
+}
