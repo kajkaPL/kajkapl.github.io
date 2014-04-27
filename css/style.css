@@ -45,3 +45,18 @@ body {
 p {
 	background-color:white;
 }
+
+a {
+	color:black;
+}
+
+a:hover {
+ text-shadow: 2px 2px 2px #888; 
+ text-decoration:none;
+ color:black;
+}
+
+
+
+
+
