@@ -1,39 +1,30 @@
+
+
 body {
-	background-image:url('ducttape.jpg');
+/*	background-image:url('ducttape.jpg');
 	background-size:cover;
 	background-position: 50% -35%;
-	background-repeat:no-repeat;
+	background-repeat:no-repeat;*/
+}
+
+#duct-tape-wrapper { 
+	position: relative;
 }
 
 h1 {
-	color:black;
-	font-family: Baskerville;
+	color:gray;
+	text-shadow: 2px 2px black;
+	font-family: helvetica;
 	background-color:white;
-	text-transform: uppercase;
 	text-transform: full-width;
 	font-variant: small-caps;
-	text-align: center;
-	writing-mode:tb-rl;
-	-webkit-transform:rotate(90deg);
-	-moz-transform:rotate(90deg);
-	-o-transform: rotate(90deg);
-	white-space:nowrap;
-	display:block;
-	bottom:0;
-	width:50px;
-	height:50px;
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
-	font-size:35px;
-	font-weight:normal;
-	text-shadow: 2px 2px gray;
-
+	text-align:center;
 }
 
 h2 {
 	color:black;
 	font-family: helvetica;
 	background-color:white;
-	text-transform: uppercase;
 	text-transform: full-width;
 	font-variant: small-caps;
 }
@@ -42,7 +33,6 @@ h3 {
 	color:black;
 	font-family: helvetica;
 	background-color:white;
-	text-transform: uppercase;
 	text-transform: full-width;
 	font-variant: small-caps;
 }
@@ -77,9 +67,27 @@ a:visited {
 }
 
 .container-fluid {
-	position:fixed;
+/*	position:fixed;
 	right:50px;
 	left:80px;
 	top:60px;
+	height: 200px;*/
 }
 
+#gradient {
+	position: absolute;
+	bottom:0;
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+#ducttape {
+	max-width: 100%;
+	z-index: -999;
+	position: relative;
+}
