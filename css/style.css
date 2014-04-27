@@ -1,7 +1,7 @@
 body {
 	background-image:url('ducttape.jpg');
 	background-size:cover;
-	background-position: 50% -55%;
+	background-position: 50% -35%;
 	background-repeat:no-repeat;
 }
 
@@ -76,5 +76,11 @@ a:visited {
  color:black;
 }
 
-
+.container-fluid {
+	border: 1px dashed black;
+	position:fixed;
+	right:50px;
+	left:50px;
+	top:80px;
+}
 
