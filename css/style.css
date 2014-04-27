@@ -1,24 +1,22 @@
 body {
 	background-image:url('ducttape.jpg');
 	background-size:cover;
-	font-family: helvetica;
 	background-position: 50% -55%;
 	background-repeat:no-repeat;
 }
 
 h1 {
 	color:gray;
-	text-align:center;
 	font-family: Baskerville;
 	background-color:white;
 	text-transform: uppercase;
 	text-transform: full-width;
 	font-variant: small-caps;
+	text-align: center;
 }
 
 h2 {
 	color:black;
-	text-align:center;
 	font-family: helvetica;
 	background-color:white;
 	text-transform: uppercase;
@@ -28,7 +26,6 @@ h2 {
 
 h3 {
 	color:black;
-	text-align:center;
 	font-family: helvetica;
 	background-color:white;
 	text-transform: uppercase;
