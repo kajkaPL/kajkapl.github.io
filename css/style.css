@@ -1,5 +1,5 @@
 body {
-	background-image:url('Cute-White-Cat-Wallpaper-Full-HD.jpg');
+	background-image:url('ducttape.jpg');
 	background-position:left bottom;
 	background-size:cover;
 	font-family: helvetica;
@@ -8,8 +8,9 @@ body {
 h1 {
 	color:gray;
 	text-align:center;
-	font-family: helvetica;
-	text-shadow: 2px 2px black;
+	font-family: Baskerville;
+	background-color:white;
+	text-transform: full-width;
 }
 
 h2 {
